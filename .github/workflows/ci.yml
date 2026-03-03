@@ -17,13 +17,9 @@ jobs:
           node-version: "22"
 
       - name: Setup Corepack
-        run: |
-          corepack enable
-          corepack install
-          yarn --version
+        run: npm install -g corepack && sudo corepack enable
 
       - name: Install dependencies
         run: yarn install --immutable
         env:
           CI_CLASSIC_PAT: ${{ secrets.CI_CLASSIC_PAT }}
-          MEND_CLASSIC_PAT: ${{ secrets.MEND_CLASSIC_PAT }}
