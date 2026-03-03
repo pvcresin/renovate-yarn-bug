@@ -22,4 +22,4 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
         env:
-          CI_CLASSIC_PAT: ${{ secrets.CI_CLASSIC_PAT }}
+          MEND_CLASSIC_PAT: ${{ secrets.MEND_CLASSIC_PAT }}
