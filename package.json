@@ -1,17 +1,7 @@
 {
   "name": "renovate-yarn-bug",
   "version": "1.0.0",
-  "private": true,
-  "description": "Reproduction repo for Renovate + Yarn Berry lock file resolution issue",
-  "license": "MIT",
   "packageManager": "yarn@4.13.0",
-  "scripts": {
-    "build": "tsc",
-    "lint": "eslint src/",
-    "test": "jest",
-    "storybook": "storybook dev -p 6006",
-    "format": "prettier --write ."
-  },
   "dependencies": {
     "@hookform/resolvers": "3.3.0",
     "@tanstack/react-query": "4.35.0",
