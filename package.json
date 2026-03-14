@@ -10,7 +10,7 @@
     "clsx": "2.0.0",
     "date-fns": "2.30.0",
     "dayjs": "1.11.9",
-    "framer-motion": "10.16.0",
+    "framer-motion": "12.36.0",
     "immer": "10.0.2",
     "ky": "1.1.0",
     "lodash": "4.17.20",
